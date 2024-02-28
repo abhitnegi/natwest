@@ -1,0 +1,143 @@
+.home{
+    text-align: center;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    padding-bottom: 1vh;
+    background: linear-gradient(
+        to bottom,
+        #FFFFFA 0%,
+        #FFFCE0 40%,
+        #FFFCE0 0%,
+        #FFF9BF 50%
+        );
+}
+
+.home .logo{
+    width: 30vw;
+}
+
+.home .collection{
+    display: flex;
+}
+
+.home .collection .left{
+    display: flex;
+    flex: 25%;
+    justify-content: center;
+}
+
+.home .collection .right{
+    display: flex;
+    flex: 55%;
+    flex-direction: column;
+}
+
+.home .collection .right .main{
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1vw;
+}
+
+.home .collection .right .list{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.home .collection .left img{
+    height: 103vh;
+}
+
+.home .collection .right img{
+    width: 64vw;
+}
+
+.home .container img{
+    width: 78vw;
+}
+
+.home .container{
+    margin-top: 6vh;
+}
+
+.home .footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 2.5vh;
+    height: 10vh;
+    background-color: rgb(235, 55, 55);
+    color: white;
+}
+
+.font{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.phone{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.diversion{
+    color: red;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 1200px){
+    .home .collection .left img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .home .collection .right img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .home .collection .left img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .home .collection .right img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .home .footer{
+        height: 5vh;
+    }
+
+    .home .container{
+        margin-top: 3vh;
+    }
+
+    .phone{
+        padding: 1px;
+        border: 1px solid white;
+        height: 1vh;
+        width: 1vw;
+    }
+
+    .facebook{
+        height: 1.5vh;
+        width: 2vw;
+    }
+
+    .globe{
+        height: 1.5vh;
+        width: 2vw;
+    }
+}
